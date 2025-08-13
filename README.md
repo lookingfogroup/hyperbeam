@@ -1,17 +1,30 @@
-# Godot Engine
+# Hyperbeam Engine 🚀
 
 <p align="center">
-  <a href="https://godotengine.org">
-    <img src="logo_outlined.svg" width="400" alt="Godot Engine logo">
+  <a href="https://github.com/lookingfogroup/hyperbeam">
+    <img src="logo_outlined.svg" width="400" alt="Hyperbeam Engine logo">
   </a>
 </p>
 
-## 2D and 3D cross-platform game engine
+## Agentic Game Development Platform
 
-**[Godot Engine](https://godotengine.org) is a feature-packed, cross-platform
-game engine to create 2D and 3D games from a unified interface.** It provides a
+**Hyperbeam Engine** is an AI-powered fork of Godot Engine that brings Cursor-like AI capabilities directly into game development. Built for the future of agentic development, Hyperbeam combines the robust Godot engine with intelligent AI assistance.
+
+### 🤖 AI-Powered Features
+
+- **AI Code Completion**: Intelligent code suggestions for GDScript and C#
+- **Built-in AI Chat**: Ask questions about game development, get instant help
+- **Context-Aware Assistance**: AI understands your project structure and Godot APIs
+- **Code Explanation**: Get detailed explanations of complex game development concepts
+- **Error Resolution**: AI helps debug and fix common issues
+- **Smart Refactoring**: AI-suggested code improvements and optimizations
+
+### 🎮 Core Engine Features
+
+Based on **[Godot Engine](https://godotengine.org)**, Hyperbeam provides a feature-packed, cross-platform
+game engine to create 2D and 3D games from a unified interface. It includes a
 comprehensive set of [common tools](https://godotengine.org/features), so that
-users can focus on making games without having to reinvent the wheel. Games can
+developers can focus on making games without having to reinvent the wheel. Games can
 be exported with one click to a number of platforms, including the major desktop
 platforms (Linux, macOS, Windows), mobile platforms (Android, iOS), as well as
 Web-based platforms and [consoles](https://docs.godotengine.org/en/latest/tutorials/platform/consoles.html).
@@ -33,17 +46,45 @@ titles.
 
 ![Screenshot of a 3D scene in the Godot Engine editor](https://raw.githubusercontent.com/godotengine/godot-design/master/screenshots/editor_tps_demo_1920x1080.jpg)
 
-## Getting the engine
+## Getting Started with Hyperbeam
 
-### Binary downloads
+### 🚀 Quick Start
 
-Official binaries for the Godot editor and the export templates can be found
-[on the Godot website](https://godotengine.org/download).
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/lookingfogroup/hyperbeam.git
+   cd hyperbeam
+   ```
 
-### Compiling from source
+2. **Compile Hyperbeam**:
+   ```bash
+   # Install dependencies (see official Godot docs for your platform)
+   scons platform=linuxbsd target=editor
+   ```
 
-[See the official docs](https://docs.godotengine.org/en/latest/contributing/development/compiling)
-for compilation instructions for every supported platform.
+3. **Launch with AI Assistant**:
+   ```bash
+   ./bin/godot.linuxbsd.editor.x86_64
+   ```
+
+4. **Configure AI**:
+   - Go to `Editor > Editor Settings > AI Assistant`
+   - Add your preferred AI API key (OpenAI, Anthropic, etc.)
+   - Start developing with AI assistance!
+
+### 📦 Binary Downloads (Coming Soon)
+
+Pre-compiled Hyperbeam binaries will be available for download.
+For now, please compile from source using the instructions below.
+
+### 🔧 Compiling from Source
+
+[See the official Godot compilation docs](https://docs.godotengine.org/en/latest/contributing/development/compiling)
+for detailed compilation instructions for every supported platform.
+
+**Additional Requirements for AI Features**:
+- Internet connection for AI API access
+- Valid API key from supported AI providers
 
 ## Community and contributing
 

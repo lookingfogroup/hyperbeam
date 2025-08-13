@@ -1,0 +1,8 @@
+#!/usr/bin/env python3
+
+Import("env")
+
+editor_obj = []
+
+env.add_source_files(editor_obj, "*.cpp")
+env.editor_sources += editor_obj
